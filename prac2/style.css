@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    background: linear-gradient(to right, #BB377D, #FBD3E9)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.login {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  background-image: url(img/sweet.png);
+  padding: 0 30px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px white;
+}
+.login h3 {
+  text-align: center;
+  color: #9f2242;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.login h4 {
+  text-align: center;
+  color: #9f2242;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.login form input {
+ margin-bottom: 15px;
+ width: 400px;
+ height: 40px;
+ background-color: lightpink;
+ border: 2px solid white;
+
+}
+::-webkit-input-placeholder  {
+  padding-left: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 15px;
+  color: white;
+}
+.login form button {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: pink;
+  border-radius: 20px;
+  border-color: pink;
+  background-color: lightpink;
+}
+.login form button:hover {
+ background-color:  lightpink;
+}
+.login h5 {
+  text-align: center;
+  color: #9f2242;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.login h5 a {
+  text-decoration: none;
+  color: black;
+}
+.login iframe {
+  position: relative;
+  left: 150px;
+}
